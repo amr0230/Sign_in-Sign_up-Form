@@ -1,0 +1,153 @@
+<!-- By: Amr Idrees -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in / Create an Account Page</title>
+    <link rel="icon"
+        href="https://w7.pngwing.com/pngs/123/735/png-transparent-human-icon-illustration-computer-icons-physician-login-medicine-user-avatar-miscellaneous-logo-silhouette-thumbnail.png">
+    <!-- Add Google Fonts Style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <!-- add Font Awesome Kit(script) to get Font awesome icons  -->
+    <script src="https://kit.fontawesome.com/d7fa8ec981.js" crossorigin="anonymous"></script>
+    <!-- add font-awesome library using cdnjs link | cdn = Content Delivery Network-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Main Container -->
+    <div class="container" id="container">
+        <!-- Sign Up Container -->
+        <div class="form-container sign-up-container">
+            <!-- Sign Up Form -->
+            <form action="#">
+                <h1>Create Account</h1>
+                <div class="social-container">
+                    <!-- Facebook -->
+                    <div class="align-item-center facebook-bg">
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                    <!-- Google -->
+                    <div class="align-item-center google-bg">
+                        <i class="fa-brands fa-google"></i>
+                    </div>
+                    <!-- Twitter -->
+                    <div class="align-item-center twitter-bg">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <!-- Instagram -->
+                    <div class="align-item-center instagram-bg">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+                <span>or use your email for registration</span>
+                <!-- Input Group 1 -->
+                <div class="input-group">
+                    <i class="fa-solid fa-user"></i>
+                    <!-- Text -->
+                    <input type="text" placeholder="Username" required>
+                </div>
+                <!-- Input Group 2 -->
+                <div class="input-group">
+                    <i class="fa-solid fa-envelope"></i>
+                    <!-- Email -->
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <!-- Input Group 3 -->
+                <div class="input-group">
+                    <i class="fa-solid fa-lock"></i>
+                    <!-- Password -->
+                    <input type="password" placeholder="Password" required>
+                </div>
+                <button>Sign Up</button>
+            </form>
+            <!-- End Sign Up Form -->
+        </div>
+        <!-- End Sign Up Container -->
+        <!-- --------------------- -->
+        <!-- Sign In Container -->
+        <div class="form-container sign-in-container">
+            <!-- Sign In Form -->
+            <form action="#">
+                <h1>Sign in</h1>
+                <div class="social-container">
+                    <!-- Facebook -->
+                    <div class="align-item-center facebook-bg">
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                    <!-- Google -->
+                    <div class="align-item-center google-bg">
+                        <i class="fa-brands fa-google"></i>
+                    </div>
+                    <!-- Twitter -->
+                    <div class="align-item-center twitter-bg">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <!-- Instagram -->
+                    <div class="align-item-center instagram-bg">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+                <span>or use your account</span>
+                <!-- Input Group 1 -->
+                <div class="input-group">
+                    <i class="fa-solid fa-user"></i>
+                    <!-- Text -->
+                    <input type="text" placeholder="Username" required>
+                </div>
+                <!-- Input Group 2 -->
+                <div class="input-group">
+                    <i class="fa-solid fa-lock"></i>
+                    <!-- Password -->
+                    <input type="password" placeholder="Password" required>
+                </div>
+                <button>
+                    <span class="ani"></span>
+                    <span class="ani"></span>
+                    <span class="ani"></span>
+                    <span class="ani"></span>
+                    sign in
+                </button>
+            </form>
+            <!-- End Sign In Form -->
+        </div>
+        <!-- End Sign In Container -->
+        <!-- --------------------- -->
+        <!-- Overlay Container -->
+        <div class="overlay-container">
+            <!-- Overlay Section -->
+            <div class="overlay">
+                <!-- Left Side (Sign In) -->
+                <div class="overlay-panel overlay-left">
+                    <h1>Welcome Back!</h1>
+                    <p>To keep connected with us please login with your personal info</p>
+                    <button class="ghost" id="signIn">sign in</button>
+                </div>
+                <!-- End Left Side (Sign In) -->
+                <!-- ----------------------- -->
+                <!-- Right Side (Sign Up) -->
+                <div class="overlay-panel overlay-right">
+                    <h1>Hello, Friend!</h1>
+                    <p>Enter your personal details and start journey with us</p>
+                    <button class="ghost" id="signUp">Sign Up</button>
+                </div>
+                <!-- End Right Side (Sign Up) -->
+            </div>
+            <!-- End Overlay Section -->
+        </div>
+        <!-- End Overlay Container -->
+    </div>
+    <!-- End Main Container -->
+
+</body>
+<script src="app.js"></script>
+
+</html>
